@@ -1,8 +1,165 @@
-*{
+* {
   font-family: "Work Sans", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- }
-  
- 
+}
+
+header {
+  width: 100%;
+  background-color: #fff4e7;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+nav h1 {
+  font-size: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+
+}
+
+nav ul li {
+  margin-right: 25px;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  border: 2px solid;
+  padding: 5px 5px;
+  border-radius: 5px;
+
+}
+
+.header-title {
+  width: 44%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.header-title h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header-title p {
+  font-size: 16px;
+  color: #131313;
+  font-weight: 400;
+  text-align: center;
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+
+.button {
+  background-color: #FF900E;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 15px;
+  margin-top: 50px;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header-bannar .bannar {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.bannar img {
+  width: 100%;
+  border-radius: 10px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+
+}
+
+/* main related styles */
+
+
+main .features {
+  width: 900px;
+  margin: 80px auto;
+  gap: 100px;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.features .img {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+.features .img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.features .title-description {
+  width: 50%;
+  align-items: flex-start;
+}
+
+.title-description h3 {
+  font-family: 40px;
+  font-weight: 700px;
+  margin-bottom: 24px;
+}
+
+.title-description h3 .quick {
+  color: #727272;
+  font-weight: 400;
+}
+
+.title-description h3 .featur {
+  color: #FF900E;
+}
+
+.title-description p {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.title-description button {
+
+  background-color: #FF900E;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
